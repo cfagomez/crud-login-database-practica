@@ -207,8 +207,8 @@ function Tareas(props) {
               listaTareas.map(item => (
                 <li key={item.id} className="list-group-item">
                   {item.nombre}
-                  <button onClick={() => activarModoEdicion(item)} className='bt btn-warning btn-sm btn-block float-end mx-2'>Editar</button>
-                  <button onClick={() => eliminarTarea(item.id)} className='bt btn-danger btn-sm btn-block float-end'>Eliminar</button>
+                  <button onClick={() => activarModoEdicion(item)} className='btn btn-warning btn-sm btn-block float-end mx-2'>Editar</button>
+                  <button onClick={() => eliminarTarea(item.id)} className='btn btn-danger btn-sm btn-block float-end'>Eliminar</button>
                 </li>
               ))
             }
